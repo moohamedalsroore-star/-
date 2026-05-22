@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-blue: #0056b3;
+  --color-dark-blue: #003366;
+  --color-accent-orange: #ff8c00;
+  --color-bg-light: #f4f7f6;
+  --color-text-dark: #2c3e50;
+  --color-text-muted: #7f8c8d;
+}
+
+body {
+  @apply bg-bg-light font-sans text-text-dark;
+  height: 100vh;
+  overflow: hidden;
+}
